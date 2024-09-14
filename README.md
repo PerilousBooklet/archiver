@@ -1,5 +1,5 @@
 # Archiver
-A shell script that copies locally a list of files/folders from web urls.
+A shell script that copies locally a list of projects from a JSON file.
 
 ## Folders Structure
 
@@ -24,3 +24,4 @@ A shell script that copies locally a list of files/folders from web urls.
 Get info on all of my starred projects:
 
 `gh api --paginate user/starred | jq '.' > starred.json`
+
