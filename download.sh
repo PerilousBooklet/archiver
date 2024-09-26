@@ -7,3 +7,4 @@ download_repos() {
 		git clone "$i"
 	done
 }
+download_repos
