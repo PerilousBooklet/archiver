@@ -1,4 +1,5 @@
 # Archiver
+
 A shell script that copies locally a list of projects from a JSON file.
 
 ## Folders Structure
@@ -18,10 +19,4 @@ A shell script that copies locally a list of projects from a JSON file.
 - [curl](https://archlinux.org/packages/core/x86_64/curl/)
 - [gh](https://archlinux.org/packages/extra/x86_64/github-cli/)
 - [jq](https://archlinux.org/packages/extra/x86_64/jq/)
-
-## Commands
-
-Get info on all of my starred projects:
-
-`gh api --paginate user/starred | jq '.' > starred.json`
 
